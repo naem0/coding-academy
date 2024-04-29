@@ -36,8 +36,8 @@ export default function WhoChorseFor() {
                 <div className="grid lg:grid-cols-3 gap-4 md:gap-6 lg:gap-8">
                     {
                         datas.map((data) =>
-                            <div className="flex gap-6 z-0 hover:scale-x-110 hover:scale-y-105  duration-200 ease-out rounded-2xl bg-gray-900 hover:bg-indigo-800 p-6" >
-                                <img className='h-6' src="https://cdn.ostad.app/public/upload/2023-10-29T15-06-39.968Z-checkbox-circle-line.svg" />
+                            <div key={data.id} className="flex gap-6 z-0 hover:scale-x-110 hover:scale-y-105  duration-200 ease-out rounded-2xl bg-gray-900 hover:bg-indigo-800 p-6" >
+                                <img className='h-6' alt={data.title} src="https://cdn.ostad.app/public/upload/2023-10-29T15-06-39.968Z-checkbox-circle-line.svg" />
                                 <p className="button_text">{data.title}</p>
                             </div>
                         )

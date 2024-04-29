@@ -23,7 +23,7 @@ const ModalBtn = ({ className }) => {
           <h1 className='font-semibold text-3xl text-center text-indigo-800'>পেমেন্ট করার জন্য নিচের নিয়ম গুলো সাবধানতার সাথে দেখুন।</h1>
           <div className='grid my-10 items-center grid-cols-3 gap-8 '>
             <div className='col-span-2'>
-              <Image className='w-5/6 mx-auto' src={bkash} />
+              <Image className='w-5/6 mx-auto' src={bkash} alt='bkash'/>
             </div>
             <ol className='flex flex-col gap-2'>
               <li>Bkash: 01310881055</li>

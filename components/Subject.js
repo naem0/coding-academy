@@ -42,13 +42,13 @@ export default function Subject() {
             </div>
             <div className='grid md:grid-cols-2 gap-10'>
                 <div>
-                    <Image href=''></Image>
+                    
                 </div>
                 <div className='h-96 overflow-y-scroll ps-6 pt-4'>
                     <ol className="relative border-s border-gray-200">
                         {
                             datas.map((data) =>
-                                <li className="mb-10 ms-6">
+                                <li key={data.id} className="mb-10 ms-6">
                                     <span className="absolute flex items-center justify-center w-6 h-6 bg-indigo-700 rounded-full -start-3 ring-8 text-white">
                                         {data.id}
                                     </span>
