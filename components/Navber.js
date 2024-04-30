@@ -24,6 +24,10 @@ export default function Navber() {
                                 <Link href="/enroll" className="block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-indigo-500 md:p-0 ">About</Link>
                             </li>
                             <li>
+                                <Link href="/" className="block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-indigo-500 md:p-0 ">হোম
+                                </Link>
+                            </li>
+                            <li>
                                 <Link href="/corses" className="block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-indigo-500 md:p-0 ">কোর্স সমূহ</Link>
                             </li>
                             <li>

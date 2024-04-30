@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
+
 export default function Subject() {
     const datas = [
         {
@@ -42,7 +43,6 @@ export default function Subject() {
             </div>
             <div className='grid md:grid-cols-2 gap-10'>
                 <div>
-                    
                 </div>
                 <div className='h-96 overflow-y-scroll ps-6 pt-4'>
                     <ol className="relative border-s border-gray-200">

@@ -3,6 +3,7 @@ import GetFromUs from "@/components/GetFromUs";
 import QurtionAns from "@/components/QurtionAns";
 import Services from "@/components/Services";
 import WhoChorseFor from "@/components/WhoChorseFor";
+import Subject from "@/components/Subject";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Services></Services>
       <GetFromUs></GetFromUs>
       <WhoChorseFor></WhoChorseFor>
+      <Subject></Subject>
       <QurtionAns></QurtionAns>
 
     </main>
