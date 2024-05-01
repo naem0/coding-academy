@@ -4,6 +4,7 @@ import QurtionAns from "@/components/QurtionAns";
 import Services from "@/components/Services";
 import WhoChorseFor from "@/components/WhoChorseFor";
 import Subject from "@/components/Subject";
+import CorseEnrolRabon from "@/components/CorseEnrolRabon";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <WhoChorseFor></WhoChorseFor>
       <Subject></Subject>
       <QurtionAns></QurtionAns>
+      <CorseEnrolRabon data={{title:'কমপ্লিট ওয়েব ডেভেলপমেন্ট কোর্স (MERN Stack)', endtime:'এনরোলমেন্ট শেষ তারিখ ০১/০৬/২০২৪'}}></CorseEnrolRabon>
 
     </main>
   );
