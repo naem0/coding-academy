@@ -1,5 +1,6 @@
 import React from 'react'
 import ModalBtn from './ModalBtn'
+import Dropdown from './Dropdown'
 
 export default function TumiRady() {
     return (
@@ -10,7 +11,7 @@ export default function TumiRady() {
                         <h1 className='text-4xl font-bold mb-6'>তুমি রেডি তো...?</h1>
                         <p className='mb-8'>একজন দক্ষ প্রোগ্রমার হতে চাইলে এই কোর্সে জয়েন করো। শিখতে গেলে যা যা লাগবে সেগুলো প্রোভাইড করব আমরা তোমার শুধু লেগে থাকতে হবে, হার্ড ওয়ার্ক করতে হবে।</p>
 
-                            <ModalBtn className ="bg-gray-100 text-indigo-800"></ModalBtn>
+                            <Dropdown className ="bg-gray-100 text-indigo-800"></Dropdown>
                             
                     </div>
                 </div>

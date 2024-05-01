@@ -21,9 +21,6 @@ export default function Navber() {
                     <div className="hidden w-full md:block md:w-auto" id="navbar-default">
                         <ul className="font-medium flex items-center flex-col p-2 md:p-0 mt-4 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
                             <li>
-                                <Link href="/enroll" className="block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-indigo-500 md:p-0 ">About</Link>
-                            </li>
-                            <li>
                                 <Link href="/" className="block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-indigo-500 md:p-0 ">হোম
                                 </Link>
                             </li>
@@ -33,7 +30,7 @@ export default function Navber() {
                             <li>
                                 <Link href="/privacy-policy" className="block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-indigo-500 md:p-0 ">প্রাইভেসি পলিসি</Link>
                             </li>
-                            <Dropdown></Dropdown>
+                            <Dropdown className ="text-gray-100  bg-indigo-800"></Dropdown>
 
                         </ul>
                     </div>

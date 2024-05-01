@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import logo from '@/public/logo.png'
 import ModalBtn from './ModalBtn'
+import Dropdown from './Dropdown'
 
 export default function Footer() {
     return (
@@ -13,7 +14,7 @@ export default function Footer() {
                             <Image src={logo} className="h-12 w-48" alt="Coding Academy Logo" />
                         </Link>
                         <ul className="space-y-4 mt-8">
-                            <li className='mt-8'><ModalBtn className ="bg-gray-100  text-indigo-800"></ModalBtn></li>
+                            <li className='mt-8'><Dropdown className ="bg-gray-100  text-indigo-800"></Dropdown></li>
                         </ul>
                     </div>
                     <div className="space-y-3">

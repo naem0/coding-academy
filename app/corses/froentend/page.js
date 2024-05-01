@@ -15,7 +15,7 @@ export default function Home() {
       <WhoChorseFor></WhoChorseFor>
       <Subject></Subject>
       <QurtionAns></QurtionAns>
-      <CorseEnrolRabon data={{title:'কমপ্লিট ওয়েব ডেভেলপমেন্ট কোর্স (MERN Stack)', endtime:'এনরোলমেন্ট শেষ তারিখ ০১/০৬/২০২৪'}}></CorseEnrolRabon>
+      <CorseEnrolRabon data={{title:'ফ্রন্ট এন্ড ওয়েব ডেভেলপমেন্ট কোর্স', endtime:'এনরোলমেন্ট শেষ তারিখ ০১/০৬/২০২৪',price:"৪,০০০"}}></CorseEnrolRabon>
 
     </main>
   );

@@ -8,7 +8,7 @@ export default function CorseEnrolRabon({ data }) {
                 <div className="flex flex-wrap items-center justify-between mx-auto py-2">
                     <div className="">
                         <h5 className='text-sm mb-1'>{data.title}</h5>
-                        <h3 className='text-3xl font-semibold'>৳৪,০০০</h3>
+                        <h3 className='text-3xl font-semibold'>৳{data.price}</h3>
                     </div>
                     <div>
                         <Link href="/enroll" className="bg-indigo-800 py-2 px-4 rounded inline-flex items-center">
