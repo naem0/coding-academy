@@ -1,5 +1,7 @@
 import React from 'react'
-import frontEnd from '@/public/front-end.png'
+import frontEnd from '@/public/fontend.png'
+import backend from '@/public/node-js.jpg'
+import fullstack from '@/public/fullstack.png'
 import ModalBtn from "./ModalBtn";
 import Image from 'next/image';
 import Link from 'next/link';
@@ -38,12 +40,12 @@ export default function Corses() {
                         </div>
                     </div>
                     <div className='bg-indigo-800 rounded-xl'>
-                        <Image className='w-full h-full rounded-xl' src={frontEnd} alt="MERN Stack Web Development" />
+                        <Image className='w-full h-full rounded-xl' src={backend} alt="MERN Stack Web Development" />
                     </div>
                 </div>
                 <div className="grid md:grid-cols-2 md:gap-16 gap-8 items-center w-full h-full rounded-xl">
                     <div className='bg-indigo-800 rounded-xl'>
-                        <Image className='w-full rounded-xl' src={frontEnd} alt="MERN Stack Web Development" />
+                        <Image className='w-full rounded-xl' src={fullstack} alt="MERN Stack Web Development" />
                     </div>
                     <div className='p-8 md:p-0'>
                         <h1 className="font-semibold text-2xl mb-4">কমপ্লিট  ওয়েব ডেভেলপমেন্ট কোর্স</h1>
