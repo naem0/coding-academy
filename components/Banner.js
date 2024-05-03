@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from '@/public/logo.png'
+import banner from '@/public/banner.png'
 import Link from "next/link";
 
 export default function Banner() {
@@ -13,7 +13,7 @@ export default function Banner() {
         <Link href='/corses' className=" bg-indigo-800 text-white hover:opacity-50 px-10 py-4 rounded-lg">কোর্স সমূহ</Link>
       </div>
       <div>
-        <Image src={logo} alt="MERN Stack Web Development" />
+        <Image src={banner} alt="Coging Academy Web Development Curses" />
       </div>
     </header>
   )

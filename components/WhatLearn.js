@@ -14,7 +14,6 @@ import json from '@/public/icon/json.png'
 import ES6 from '@/public/icon/ES6.jpg'
 import webapi from '@/public/icon/webapi.png'
 import reactLogo from '@/public/icon/react.png'
-import firebase from '@/public/icon/firebase.png'
 import express from '@/public/icon/express js.png'
 import jwt from '@/public/icon/jwt.png'
 import mongodb from '@/public/icon/mongodb.png'
@@ -23,6 +22,10 @@ import nodejs from '@/public/icon/nodejs.png'
 import stripe from '@/public/icon/stripe.svg'
 import vercel from '@/public/icon/vercel.png'
 import Render from '@/public/icon/Render.png'
+import figma from '@/public/icon/Figma.png'
+import reactQuery from '@/public/icon/react-query.png'
+import firebase from '@/public/icon/firebase.png'
+import nextjs from '@/public/icon/nextjs.webp'
 import restapi from '@/public/icon/restapi.png'
 
 import WhatLernThis from "./WhatLernThis";
@@ -125,6 +128,30 @@ export default function WhatLearn() {
             id: 16,
             logo: reactLogo,
             title: 'React',
+            discripition: ''
+        },
+        {
+            id: 17,
+            logo: figma,
+            title: 'Figma',
+            discripition: ''
+        },
+        {
+            id: 18,
+            logo: reactQuery,
+            title: 'Reacy Query',
+            discripition: ''
+        },
+        {
+            id: 19,
+            logo: firebase,
+            title: 'Firebase',
+            discripition: ''
+        },
+        {
+            id: 20,
+            logo: nextjs,
+            title: 'Next Js',
             discripition: ''
         },
     ]

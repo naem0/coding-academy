@@ -14,6 +14,10 @@ import json from '@/public/icon/json.png'
 import ES6 from '@/public/icon/ES6.jpg'
 import webapi from '@/public/icon/webapi.png'
 import reactLogo from '@/public/icon/react.png'
+import figma from '@/public/icon/Figma.png'
+import reactQuery from '@/public/icon/react-query.png'
+import firebase from '@/public/icon/firebase.png'
+import nextjs from '@/public/icon/nextjs.webp'
 import WhatLernThis from "./WhatLernThis";
 import { Noto_Sans_Javanese } from 'next/font/google'
 
@@ -115,6 +119,30 @@ export default function WhatLernFontend() {
             id: 16,
             logo: reactLogo,
             title: 'React',
+            discripition: ''
+        },
+        {
+            id: 17,
+            logo: figma,
+            title: 'Figma',
+            discripition: ''
+        },
+        {
+            id: 18,
+            logo: reactQuery,
+            title: 'Reacy Query',
+            discripition: ''
+        },
+        {
+            id: 19,
+            logo: firebase,
+            title: 'Firebase',
+            discripition: ''
+        },
+        {
+            id: 20,
+            logo: nextjs,
+            title: 'Next Js',
             discripition: ''
         },
     ]

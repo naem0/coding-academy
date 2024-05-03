@@ -7,6 +7,7 @@ import Subject from "@/components/Subject";
 import TumiRady from "@/components/TumiRady";
 import UpcamingBatch from "@/components/UpcamingBatch";
 import WhatLearn from "@/components/WhatLearn";
+import WhoChorseFor from "@/components/WhoChorseFor";
 
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
       <GetFromUs/>
       <TumiRady/>
       <Subject/>
+      <WhoChorseFor/>
       <QurtionAns/>
     </main>
   );

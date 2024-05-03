@@ -2,7 +2,6 @@ import React from 'react'
 import frontEnd from '@/public/fontend.png'
 import backend from '@/public/node-js.jpg'
 import fullstack from '@/public/fullstack.png'
-import ModalBtn from "./ModalBtn";
 import Image from 'next/image';
 import Link from 'next/link';
 

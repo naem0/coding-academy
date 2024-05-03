@@ -1,5 +1,6 @@
 import Image from 'next/image'
-import React from 'react'
+import React from 'react'       
+import banner from '@/public/banner-2.png'       
 
 
 export default function Subject() {
@@ -41,8 +42,9 @@ export default function Subject() {
                 <h1 className='font-bold text-3xl mb-4'>কোর্সটি কিভাবে চলবে</h1>
                 <p>যেভাবে আমরা আপনাকে একজন দক্ষ ডেভেলপার হয়ে উঠতে সাহায্য করতে পারি</p>
             </div>
-            <div className='grid md:grid-cols-2 gap-10'>
+            <div className='grid md:grid-cols-2 gap-10 items-center'>
                 <div>
+                    <Image className='w-3/5 mx-auto' src={banner} alt='কোর্সটি কিভাবে চলবে'></Image>
                 </div>
                 <div className='h-96 overflow-y-scroll ps-6 pt-4'>
                     <ol className="relative border-s border-gray-200">

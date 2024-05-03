@@ -11,7 +11,7 @@ export default function CorseEnrolRabon({ data }) {
                         <h3 className='text-3xl font-semibold'>৳{data.price}</h3>
                     </div>
                     <div>
-                        <Link href="/enroll" className="bg-indigo-800 py-2 px-4 rounded inline-flex items-center">
+                        <Link href="/enroll" className="bg-indigo-800 py-2 px-8 rounded inline-flex items-center">
                             এনরোল
                         </Link>
                         <p className='text-xs mt-2'>{data.endtime}</p>

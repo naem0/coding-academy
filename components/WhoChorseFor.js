@@ -26,9 +26,6 @@ export default function WhoChorseFor() {
     return (
         <section>
             <div className="">
-                <div classNameName="">
-                    <h1 className="">কোর্সটি আপনারই জন্য</h1>
-                </div>
                 <div className='text-center mb-12'>
                     <h1 className='font-bold text-3xl mb-4'>এই কোর্সটি আপনারই জন্য</h1>
                     <p>এই কোর্সটি যাদের জন্য</p>
