@@ -10,7 +10,7 @@ export default function BackendBanner() {
         <section className="my-20">
             <div className="grid md:grid-cols-2 md:gap-16 gap-8 items-center w-full h-full rounded-xl">
                     <div className='p-8 md:p-0'>
-                        <h1 className="font-semibold text-2xl mb-4">ব্যাক-এন্ড ওয়েব ডেভেলপমেন্ট কোর্স</h1>
+                        <h1 className="font-semibold text-2xl mb-4"><span className='text-indigo-800'>ব্যাক-এন্ড</span> ওয়েব ডেভেলপমেন্ট কোর্স</h1>
                         <h3 className="mb-6">MongoDB Database and Node Ecosystem Backend Development</h3>
                         <p>এই কোর্সেই ব্যাকেন্ড, ড্যাটাবেজ সবচেয়ে রিসোর্সফুল ও আপডেটেড কারিকুলামে এবং  বাংলা ভাষায় ব্যাক-এন্ড ওয়েব ডেভেলপমেন্ট ও Node JS ডেভেলপার হবার বেস্ট জার্নি অপেক্ষা করছে আপনার জন্য।</p>
 

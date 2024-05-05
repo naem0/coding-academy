@@ -9,12 +9,10 @@ export default function WhatLernThis({datas}) {
                 {
                     datas.map((data) =>
                         <div key={data.id} data-aos="zoom-in" className=" flex gap-6 items-center z-0 text-center hover:scale-x-110 hover:scale-y-105  duration-200 ease-out rounded-2xl bg-gray-900 hover:bg-indigo-800 px-8 py-6">
-                            
                             <div className="w-10">
                                 <Image className="" src={data.logo} alt={data.title} />
                             </div>
                             <p className="mt-3 text-gray-200 mb-3 font-semibold text-[16px]">{data.title}</p>
-                            
                         </div>
                     )
                 }

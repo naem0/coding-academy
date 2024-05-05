@@ -27,7 +27,7 @@ export default function WhoChorseFor() {
         <section>
             <div className="">
                 <div className='text-center mb-12'>
-                    <h1 className='font-bold text-3xl mb-4'>এই কোর্সটি আপনারই জন্য</h1>
+                    <h1 className='font-bold text-3xl mb-4'>এই কোর্সটি <span className='text-indigo-800'>আপনারই জন্য</span></h1>
                     <p>এই কোর্সটি যাদের জন্য</p>
                 </div>
                 <div className="grid lg:grid-cols-3 gap-4 md:gap-6 lg:gap-8">

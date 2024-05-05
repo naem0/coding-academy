@@ -233,19 +233,19 @@ export default function WhatLearn() {
     return (
         <section className="my-20">
             <div className='text-center'>
-                <h1 className='font-bold text-3xl mb-4'>এক নজরে আমাদের MERN Stack কোর্স</h1>
+                <h1 className='font-bold text-3xl mb-4'>এক নজরে আমাদের <span className='text-indigo-800'>MERN Stack</span> কোর্স</h1>
                 <p>এই কোর্সে যা যা শেখা‌নো হবে</p>
             </div>
             <div className="my-20">
                 <div className=' my-16'>
-                    <h2 className='font-bold text-2xl mb-4'>এক নজরে আমাদের Front-end কোর্স</h2>
+                    <h2 className='font-bold text-2xl mb-4'>এক নজরে আমাদের <span className='text-indigo-800'>Front-end</span> কোর্স</h2>
 
                 </div>
                 <WhatLernThis datas={fontendDatas}></WhatLernThis>
             </div>
             <div className="my-20">
                 <div className=' my-16'>
-                    <h2 className='font-bold text-2xl mb-4'>এক নজরে আমাদের Back-end কোর্স</h2>
+                    <h2 className='font-bold text-2xl mb-4'>এক নজরে আমাদের <span className='text-indigo-800'>Back-end</span> কোর্স</h2>
                 </div>
                 <WhatLernThis datas={backendDatas}></WhatLernThis>
             </div>

@@ -149,7 +149,7 @@ export default function WhatLernFontend() {
     return (
         <section className="my-20">
             <div className='text-center mb-12'>
-                <h1 className='font-bold text-3xl mb-4'>এক নজরে আমাদের ফ্রন্ট এন্ড ওয়েব ডেভেলপমেন্ট কোর্স</h1>
+                <h1 className='font-bold text-3xl mb-4'>এক নজরে আমাদের <span className='text-indigo-800'>ফ্রন্ট এন্ড</span> ওয়েব ডেভেলপমেন্ট কোর্স</h1>
                 <p>এই কোর্সে যা যা শেখা‌নো হবে</p>
             </div>
             <WhatLernThis datas={fontendDatas}></WhatLernThis>

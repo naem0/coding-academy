@@ -9,7 +9,7 @@ export default function Corses() {
     return (
         <section className="my-20">
             <div className='text-center my-12'>
-                <h1 className='font-bold text-3xl mb-4'>আমাদের কোর্স সমূহ</h1>
+                <h1 className='font-bold text-3xl mb-4'>আমাদের <span className='text-indigo-800'>কোর্স সমূহ</span></h1>
                 <p>ফ্রন্ট এন্ড ও ব্যাক-এন্ড এর সমন্বয়ই আমাদের ফুলস্ট্যাক ওয়েব ডেভেলপমেন্ট কোর্স</p>
             </div>
             <div className="grid gap-20 mb-8 ">

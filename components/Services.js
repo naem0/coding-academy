@@ -17,7 +17,7 @@ export default function Services() {
     return (
         <section className='my-40'>
             <div className='text-center'>
-                <h1 className='font-bold text-3xl mb-4'>এক নজরে আমাদের কোর্স</h1>
+                <h1 className='font-bold text-3xl mb-4'>এক নজরে <span className='text-indigo-800'>আমাদের কোর্স</span> </h1>
                 <p>এই কোর্সে যা যা থাকছে</p>
             </div>
             <div className='my-12 p-6 grid border rounded-2xl border-slate-600 bg-gray-800/50 md:grid-cols-2 lg:grid-cols-4'>
