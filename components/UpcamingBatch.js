@@ -10,19 +10,19 @@ export default function UpcamingBatch() {
                         <div className="grid gap-8 mb-8 md:grid-cols-2 lg:grid-cols-4 ">
                             <div className="">
                                 <h4 className="font-semibold text-2xl text-[#7dd3fc]">Enrollment Starts</h4>
-                                <p className="text-gray-300 font-semibold text-xl mt-5 ">5 May, 2024</p>
+                                <p className="text-gray-300 font-semibold text-xl mt-5 ">7 May, 2024</p>
                             </div>
                             <div className="">
                                 <h4 className="font-semibold text-2xl text-[#7dd3fc]">Enrollment Ends</h4
-                                ><p className="text-gray-300 font-semibold text-xl mt-5">30 May, 2024</p>
+                                ><p className="text-gray-300 font-semibold text-xl mt-5">10 June, 2024</p>
                             </div>
                             <div className="">
                                 <h4 className="font-semibold text-2xl text-[#7dd3fc]">Orientation Starts</h4>
-                                <p className="text-gray-300 font-semibold text-xl mt-5">1 June, 2024</p>
+                                <p className="text-gray-300 font-semibold text-xl mt-5">11 June, 2024</p>
                             </div>
                             <div className="">
                                 <h4 className="font-semibold text-2xl text-[#7dd3fc]">Class Starts</h4>
-                                <p className="text-gray-300 font-semibold text-xl mt-5">2 June, 2024</p>
+                                <p className="text-gray-300 font-semibold text-xl mt-5">15 June, 2024</p>
                             </div>
                         </div>
                     </div>

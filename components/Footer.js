@@ -35,7 +35,8 @@ export default function Footer() {
                     </div>
                     <div>
                         <h3 className="text-[20px] font-[600] text-white pb-3">Contact Info</h3>
-                        <p className="text-base  text-gray-300 hover:text-white pb-2">Call Us: +8801310881055</p>
+                        <p className="text-base  text-gray-300 hover:text-white pb-2">Call Us: +8801732470557</p>
+                        <p className="text-base  text-gray-300 hover:text-white pb-2">Call Us: +8801756766924</p>
                         <Link href='https://maps.app.goo.gl/e7bDa8ZoKsvZATxi9' target="_blank"className="text-base  text-gray-300 hover:text-white pb-2 ">Address: Pulish Line, Shariatpur, Dhaka,Bangladesh.</Link>
                         <p className=" text-gray-300 hover:text-white  pb-2 ">Mail Us: <span className="lowercase text-[15px]">codingacademy055@gmail.com</span></p>
                     </div>
